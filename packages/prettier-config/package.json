@@ -1,0 +1,10 @@
+{
+  "name": "@chimney/prettier-config",
+  "version": "0.0.0",
+  "author": "chimneyM <chimneym@outlook.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
