@@ -14,7 +14,7 @@ module.exports = {
   "jsxSingleQuote": true,
   "endOfLine": "lf",
   "printWidth": 100,
-  "proseWrap": "always",
+  "proseWrap": "preserve",
   "quoteProps": "as-needed",
   "requirePragma": false,
   "semi": false,
