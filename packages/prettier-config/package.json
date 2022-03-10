@@ -1,6 +1,6 @@
 {
   "name": "@chimneym/prettier-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "chimneyM <chimneym@outlook.com>",
   "license": "ISC",
   "main": "index.js",
