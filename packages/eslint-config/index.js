@@ -34,7 +34,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/prop-types': 'off',
     'no-shadow': 'off',
-    'max-len': ['error',{code: 100}],
     semi: [2, 'never'], // 语句强制分号结尾  不要分号,
     quotes: [2, 'single'],
     'import/no-extraneous-dependencies': 'off',
