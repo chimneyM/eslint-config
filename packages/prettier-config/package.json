@@ -7,5 +7,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "478a46342619b263c16190752e057136c57d87e7"
+  "gitHead": "478a46342619b263c16190752e057136c57d87e7",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
 }
