@@ -3,6 +3,7 @@ module.exports = {
   "jsxBracketSameLine": false,
   "useTabs": false,
   "eslintIntegration": false,
+  "tslintIntegration": true,
   "requireConfig": false,
   "stylelintIntegration": false,
   "arrowParens": "always",

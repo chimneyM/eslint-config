@@ -16,7 +16,7 @@ module.exports = {
       }
     }
   },
-  extends: ['plugin:react/recommended', 'airbnb', 'plugin:react-hooks/recommended'],
+  extends: ["eslint:recommended",'plugin:react/recommended', 'airbnb', 'plugin:react-hooks/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
