@@ -16,7 +16,7 @@ module.exports = {
       }
     }
   },
-  extends: ["eslint:recommended",'plugin:react/recommended', 'airbnb', 'plugin:react-hooks/recommended'],
+  extends: ['airbnb','prettier' ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -24,7 +24,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['react', 'react-hooks'],
+  plugins: ['airbnb','prettier'],
   rules: {
     'no-unused-vars': 'off',
     'no-bitwise': 0,
