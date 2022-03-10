@@ -1,6 +1,6 @@
 {
   "name": "@chimneym/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "chimneyM <chimneym@outlook.com>",
   "license": "ISC",
   "main": "index.js",
