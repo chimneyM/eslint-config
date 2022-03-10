@@ -11,7 +11,7 @@ module.exports = {
     },
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx'],
         paths: ['src']
       }
     }
@@ -61,6 +61,7 @@ module.exports = {
     'jsx-quotes': [1, 'prefer-single'],
     'import/extensions': 0,
     'import/no-unresolved': 0,
+    'no-param-reassign': ["error", { "props": false }],
     'import/no-named-as-default-member': 'off'
   }
 }
