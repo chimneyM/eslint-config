@@ -16,7 +16,18 @@ module.exports = {
       }
     }
   },
-  extends: ['airbnb','plugin:prettier/recommended' ],
+  extends: [
+    'airbnb',
+    'eslint:recommended',
+    'plugin:import/errors',
+    'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
+    'plugin:prettier/recommended',
+    'prettier/react',
+  ],
+  plugins: [
+    'react-hooks',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -24,7 +35,6 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['prettier'],
   rules: {
     "prettier/prettier": 2,
     'no-unused-vars': 'off',
