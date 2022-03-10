@@ -9,6 +9,8 @@
   },
   "gitHead": "478a46342619b263c16190752e057136c57d87e7",
   "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1"
   }
 }
