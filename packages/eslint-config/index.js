@@ -34,7 +34,9 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'prettier/prettier': ["error"],
+    'prettier/prettier': ["error", {}, {
+      "usePrettierrc": false
+    }],
     'no-unused-vars': 'off',
     'no-bitwise': 0,
     'react/react-in-jsx-scope': 'off',
