@@ -17,16 +17,14 @@ module.exports = {
     }
   },
   extends: [
-    'airbnb',
-    'eslint:recommended',
-    'plugin:import/errors',
-    'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended',
-    'prettier/react',
+    "airbnb",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended"
   ],
   plugins: [
-    'react-hooks',
+    'prettier'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -36,7 +34,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    "prettier/prettier": 2,
+    'prettier/prettier': ["error"],
     'no-unused-vars': 'off',
     'no-bitwise': 0,
     'react/react-in-jsx-scope': 'off',
