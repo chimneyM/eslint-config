@@ -18,13 +18,12 @@ module.exports = {
   },
   extends: [
     "airbnb",
-    "prettier",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended"
   ],
   plugins: [
-    'prettier'
+    'react'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -34,29 +33,6 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'prettier/prettier': ["error", {}, {
-      "singleQuote": true,
-      "jsxBracketSameLine": false,
-      "useTabs": false,
-      "eslintIntegration": false,
-      "tslintIntegration": true,
-      "requireConfig": false,
-      "stylelintIntegration": false,
-      "arrowParens": "always",
-      "bracketSpacing": true,
-      "embeddedLanguageFormatting": "auto",
-      "htmlWhitespaceSensitivity": "css",
-      "insertPragma": false,
-      "jsxSingleQuote": true,
-      "endOfLine": "lf",
-      "printWidth": 100,
-      "proseWrap": "preserve",
-      "quoteProps": "as-needed",
-      "requirePragma": false,
-      "semi": false,
-      "tabWidth": 2,
-      "trailingComma": "none"
-    }],
     'no-unused-vars': 'off',
     'no-bitwise': 0,
     'react/react-in-jsx-scope': 'off',
