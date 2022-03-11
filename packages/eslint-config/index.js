@@ -35,7 +35,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ["error", {}, {
-      "usePrettierrc": false
+      "usePrettierrc": true
     }],
     'no-unused-vars': 'off',
     'no-bitwise': 0,
