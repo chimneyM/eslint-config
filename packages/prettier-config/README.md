@@ -1,4 +1,4 @@
-# `@chimney/prettier-config`
+# `@chimneym/prettier-config`
 
 > TODO: description
 

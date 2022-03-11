@@ -3,72 +3,71 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es2021: true
+    es2021: true,
   },
   settings: {
     react: {
-      version: 'detect'
+      version: "detect",
     },
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        extensions: ['.js', '.jsx'],
-        paths: ['src']
-      }
-    }
+        extensions: [".js", ".jsx"],
+        paths: ["src"],
+      },
+    },
   },
   extends: [
     "airbnb",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "prettier",
   ],
-  plugins: [
-    'react'
-  ],
+  plugins: ["react"],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
   rules: {
-    'no-unused-vars': 'off',
-    'no-bitwise': 0,
-    'react/react-in-jsx-scope': 'off',
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
-    'import/prefer-default-export': 'off',
-    'react/prop-types': 'off',
-    'no-shadow': 'off',
-    semi: [2, 'never'], // 语句强制分号结尾  不要分号,
-    quotes: [2, 'single'],
-    'import/no-extraneous-dependencies': 'off',
-    'global-require': 'off',
-    'react/jsx-props-no-spreading': 'off',
-    'jsx-a11y/click-events-have-key-events': 'off',
-    'jsx-a11y/no-static-element-interactions': 'off',
-    'no-console': 'off',
-    'comma-dangle': [
-      'error',
+    "no-unused-vars": "off",
+    "no-bitwise": 0,
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "no-shadow": "off",
+    semi: [2, "never"], // 语句强制分号结尾  不要分号,
+    quotes: [2, "single"],
+    "import/no-extraneous-dependencies": "off",
+    "global-require": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-console": "off",
+    "comma-dangle": [
+      "error",
       {
-        arrays: 'never',
-        objects: 'never',
-        imports: 'never',
-        exports: 'never',
-        functions: 'never'
-      }
+        arrays: "never",
+        objects: "never",
+        imports: "never",
+        exports: "never",
+        functions: "never",
+      },
     ],
-    'react/jsx-filename-extension': [
-      'error',
+    "react/jsx-filename-extension": [
+      "error",
       {
-        extensions: ['.js', '.jsx']
-      }
+        extensions: [".js", ".jsx"],
+      },
     ],
-    'jsx-quotes': [1, 'prefer-single'],
-    'import/extensions': 0,
-    'import/no-unresolved': 0,
-    'no-param-reassign': ["error", { "props": false }],
-    'import/no-named-as-default-member': 'off'
-  }
-}
+    "jsx-quotes": [1, "prefer-single"],
+    "import/extensions": 0,
+    "import/no-unresolved": 0,
+    "no-param-reassign": ["error", { props: false }],
+    "import/no-named-as-default-member": "off",
+  },
+};

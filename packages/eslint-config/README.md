@@ -1,4 +1,4 @@
-# `@chimney/eslint-config`
+# `@chimneym/eslint-config`
 
 > TODO: description
 
